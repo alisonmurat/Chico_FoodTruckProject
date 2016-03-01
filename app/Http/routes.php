@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/proto1', function () {
+    return view('home_prototype');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
