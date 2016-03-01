@@ -21,6 +21,18 @@ Route::get('/', function () {
 Route::get('/proto1', function () {
     return view('home_prototype');
 });
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/aboutus', function () {
+    return view('about_us');
+});
+
+Route::get('/admin', function () {
+    return view('admin');
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
