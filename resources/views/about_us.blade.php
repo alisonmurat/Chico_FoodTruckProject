@@ -45,7 +45,7 @@ img {
   <br>
 </ul>  
 <center>
-<img src="html5.gif" alt="Team" style="width:400px;height:400px;">
+<img src="/taco.jpg" alt="Taco" style="width:400px;height:400px;">
 
 
 <img src="html5.gif" alt="Truck" style="width:200px;height:200px;">
