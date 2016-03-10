@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <style>
 body {background-color: rgb(185, 0, 0);}
@@ -45,10 +46,8 @@ img {
   <br>
 </ul>  
 <center>
-<img src="/taco.jpg" alt="Taco" style="width:400px;height:400px;">
+<img src="/tacos.jpg" alt="Taco" style="width:800px;height:200px;">
 
-
-<img src="html5.gif" alt="Truck" style="width:200px;height:200px;">
 </center>
 <br>
 <p>
