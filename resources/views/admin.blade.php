@@ -40,22 +40,22 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="/html/default.asp">About Us</a></li>
+  <li><a href="http://project.app/aboutus">About Us</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="/css/default.asp">Home Page</a></li>
+  <li><a href="http://project.app/homepage">Home Page</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="/js/default.asp">Menu</a></li>
+  <li><a href="http://project.app/menu">Menu</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="/php/default.asp">Gallery</a></li>
+  <li><a href="http://project.app/gallery">Gallery</a></li>
   <br>
   <br>
   <br>

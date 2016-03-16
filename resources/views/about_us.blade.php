@@ -33,10 +33,10 @@ img {
 
 <ul id="menu">
 <center>
-  <li><a href="/html/default.asp">About Us</a></li>
-  <li><a href="/css/default.asp">Home Page</a></li>
-  <li><a href="/js/default.asp">Menu</a></li>
-  <li><a href="/php/default.asp">Gallery</a></li>
+  <li><a href="http://project.app/aboutus">About Us</a></li>
+  <li><a href="http://project.app/homepage">Home Page</a></li>
+  <li><a href="http://project.app/menu">Menu</a></li>
+  <li><a href="http://project.app/gallery">Gallery</a></li>
   <li><a href="/php/default.asp">Location & Hours</a></li>
 </center>  
   <br>
