@@ -46,20 +46,20 @@ img {
 </ul>  
 <center>
 
-<img src="html5.gif" alt="Team" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/1.jpg" alt="Team" style="width:160px;height:160px;">
+<img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/3.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/4.jpg" alt="Truck" style="width:160px;height:160px;">
 <br>
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/5.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/6.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/7.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/8.jpg" alt="Truck" style="width:160px;height:160px;">
 <br>
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
-<img src="html5.gif" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/9.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/10.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/11.jpg" alt="Truck" style="width:160px;height:160px;">
+<img src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </center>
 </body>
 </html>
