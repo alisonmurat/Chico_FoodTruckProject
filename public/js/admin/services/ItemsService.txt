@@ -1,0 +1,27 @@
+app.factory('Items', function ($http) {
+
+	return {
+
+		// Get all Items from server / DB
+		list: function () {
+			return $http.get('/ajax/Items');
+		},
+
+		// Get a single Items from the server / DB
+		get: function (id) {
+			return $http.get('/ajax/Items/'+id);
+		},
+
+		// Save a new Items to the server / DB
+		save: function (data) {
+			return $http.post('/ajax/Items', data);
+		},
+
+		// Update a Items on the server / DB
+		update: function (id, data) {
+			return $http.put('/ajax/Items/'+id, data);
+		}
+
+	}
+
+});
