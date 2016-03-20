@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', 'PageController@about');
+Route::get('/admin', 'AdminController@index');
+Route::resource('ajax/page', 'PageAdminController');
 
 Route::get('/proto1', function () {
     return view('home_prototype');
@@ -33,6 +36,8 @@ Route::get('/aboutus', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
