@@ -18,7 +18,7 @@ class ItemsController extends Controller
     public function items()
     {
     	
-         $Items = DB::table('items')->get();
+         $items = DB::table('items')->get();
          return view('items', ['items' => $items]);
 
     }

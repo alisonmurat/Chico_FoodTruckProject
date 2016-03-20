@@ -23,7 +23,7 @@ Route::resource('ajax/page', 'PageAdminController');
 
 Route::get('/items', 'ItemsController@items');
 Route::get('/admin', 'AdminController@index');
-Route::resource('ajax/items', 'itemsAdminController');
+Route::resource('ajax/items', 'ItemsAdminController');
 
 Route::get('/proto1', function () {
     return view('home_prototype');
