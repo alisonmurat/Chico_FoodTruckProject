@@ -12,6 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(PagesSeeder::class);
+        $this->call(Items_Seeder::class);
     }
 
 	protected function seedFromCSV($filename)
