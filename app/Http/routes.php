@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about_us', 'PageController@about');
+Route::get('/aboutus', 'PageController@about');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/page', 'PageAdminController');
 
