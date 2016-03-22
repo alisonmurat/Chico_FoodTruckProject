@@ -47,6 +47,7 @@ img {
 <center>
 
 <img src="/photos/1.jpg" alt="Team" style="width:160px;height:160px;">
+<p1> Tacos $6 <p1>
 <img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
 <img src="/photos/3.jpg" alt="Truck" style="width:160px;height:160px;">
 <img src="/photos/4.jpg" alt="Truck" style="width:160px;height:160px;">
