@@ -15,7 +15,7 @@ class PageController extends Controller
     {
     	
          $page = Page::where('page_label', 'about')->first();
-         return view('page', $page);
+         return view('about_us', $page);
 
     }
 }
