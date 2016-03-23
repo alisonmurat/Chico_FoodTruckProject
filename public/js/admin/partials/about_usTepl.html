@@ -1,0 +1,30 @@
+
+<div class="content">
+    <div class="title">Admin</div>
+    <div class="wrapper">
+        <div>
+            <label>Headline</label>
+            <input type="text" ng-model="current_about_us.headline">
+        </div>
+        <div>
+            <label>about_us Label</label>
+            <input type="text" ng-model="current_about_us.about_us_label">
+        </div>
+        <div>
+            <label>Body</label>
+            <textarea ng-model="current_about_us.body"></textarea>
+        </div>
+        <div>
+            <button ng-click="clearabout_us()">New</button>
+            <button ng-click="saveabout_us()">Save</button>
+        </div>
+    </div>
+</div>
+<div class="list_wrapper">
+    <div class="title">about_us</div>
+    <div class="list" ng-repeat="about_us in about_us_list">
+        <div class="item">
+            <a class="link" ng-click="getabout_us(about_us.id)">{{ about_us.about_us_label }}</a>
+        </div>
+    </div>
+</div>

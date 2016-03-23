@@ -10,6 +10,7 @@ app.config(['$routeProvider',function($routeProvider) {
 			controller: 'about_us/Controller',
 			templateUrl: '/js/admin/partials/about_usTmpl.html'
 		})
+		
 		.otherwise({ redirectTo: '/items' });
 
 }]);
