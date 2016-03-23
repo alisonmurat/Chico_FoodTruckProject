@@ -117,7 +117,7 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="http://project.app/menu">Menu</a></li>
+  <li><a href="http://project.app/home">Menu</a></li>
   <br>
   <br>
   <br>
@@ -137,12 +137,9 @@ img {
   <center>
   <button type="button" onclick="alert('Changes have been saved')">Save</button>
   <button type="button"">Edit</button>
+  <button type="button" onclick="alert('Thank you for taking the survey!')">Submit</button>
   </center>
   
-  <br>
-  <center>
-  <button type="button" onclick="alert('Thank you for taking the survey!')">Submit</button>
-  </center> 
   </ul>  
 </body>
 </html>
