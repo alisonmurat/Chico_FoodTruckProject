@@ -64,7 +64,7 @@
 
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
-    padding: 2;
+    padding: 2px;
 }
 
 ul#menu li {
