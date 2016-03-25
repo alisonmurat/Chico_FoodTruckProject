@@ -1,9 +1,9 @@
 app.controller('PageController', function ($scope, $routeParams, Page) {
 
-	$scope.about_us_list = [];			// Variable for all about_uss
-	$scope.current_about_us = null;		// Variable for the about_us shown in the form
+	$scope.page_list = [];			// Variable for all pages
+	$scope.current_page = null;		// Variable for the page shown in the form
 
-	// At startup, check to see if a specific about_us was requested
+	// At startup, check to see if a specific page was requested
 	function init() {
 		if ($routeParams.id) {
 			$scope.getPage($routeParams.id);
@@ -11,30 +11,30 @@ app.controller('PageController', function ($scope, $routeParams, Page) {
 		$scope.getAllPages();
 	}
 
-	// Go and get the list of all about_us
+	// Go and get the list of all pages
 	$scope.getAllPages = function () {
 		Page.list().success(function (data) {
-			$scope.about_us_list = data;
+			$scope.page_list = data;
 		});
 	}
 
-	// Gets a specific about_us from the database
-	$scope.getPage = function (about_us_id) {
-		Page.get(about_us_id).success(function (data) {
-			$scope.current_about_us = data;
+	// Gets a specific page from the database
+	$scope.getPage = function (aboutus) {
+		Page.get(aboutus).success(function (data) {
+			$scope.current_aboutus = data;
 		});
 	}
 
 	// Saves what is in the form
 	$scope.savePage = function () {
 		
-		if ($scope.current_about_us.id) {
-			Page.update($scope.current_about_us.id, $scope.current_about_us).success(function (data) {
-				$scope.current_about_us = data;
+		if ($scope.current_page.id) {
+			Page.update($scope.current_page.id, $scope.current_page).success(function (data) {
+				$scope.current_page = data;
 			});
 		} else {
-			Page.save($scope.current_about_us).success(function (data) {
-				$scope.current_about_us = data[0];				
+			Page.save($scope.current_page).success(function (data) {
+				$scope.current_page = data[0];				
 			});
 		};
 		$scope.getAllPages();
@@ -42,7 +42,7 @@ app.controller('PageController', function ($scope, $routeParams, Page) {
 
 	// Resets the form
 	$scope.clearPage = function () {
-		$scope.current_about_us = null;
+		$scope.current_page = null;
 	}
 
 	// Call the startup script
