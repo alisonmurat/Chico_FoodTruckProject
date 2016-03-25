@@ -4,7 +4,7 @@ app.factory('about_us' function ($http) {
 
 		// Get all pages from server / DB
 		list: function () {
-			return $http.get('/ajax/about_us');
+			return $http.get('/ajax/page');
 		},
 
 		// Get a single page from the server / DB
