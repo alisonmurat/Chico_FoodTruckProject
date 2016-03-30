@@ -3,7 +3,7 @@ var app = angular.module('adminApp', ['ngRoute']);
 app.config(['$routeProvider',function($routeProvider) {
 	$routeProvider
 		.when('/pages/:id?', {
-			controller: '/js/admin/controllers/PageController',
+			controller: 'PageController',
 			templateUrl: '/js/admin/partials/PageTmpl.html'
 		})
 		.when('/items/:id?', {
