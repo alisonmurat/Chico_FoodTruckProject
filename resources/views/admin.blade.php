@@ -107,22 +107,22 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="http://project.app/aboutus">About Us</a></li>
+  <li><a href="#/about_us">About Us</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="http://project.app/homepage">Home Page</a></li>
+  <li><a href="/homepage">Home Page</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="http://project.app/home">Menu</a></li>
+  <li><a href="/home">Menu</a></li>
   <br>
   <br>
   <br>
   <br>
-  <li><a href="http://project.app/gallery">Gallery</a></li>
+  <li><a href="/gallery">Gallery</a></li>
   <br>
   <br>
   <br>

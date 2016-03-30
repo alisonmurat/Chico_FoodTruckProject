@@ -2,10 +2,6 @@ var app = angular.module('adminApp', ['ngRoute']);
 
 app.config(['$routeProvider',function($routeProvider) {
 	$routeProvider
-		.when('/pages/:id?', {
-			controller: '/js/admin/controllers/PageController',
-			templateUrl: '/js/admin/partials/PageTmpl.html'
-		})
 		.when('/items/:id?', {
 			controller: '/js/admin/controllers/ItemsController',
 			templateUrl: '/js/admin/partials/itemsTmpl.html'
