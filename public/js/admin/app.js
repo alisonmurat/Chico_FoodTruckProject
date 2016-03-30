@@ -7,7 +7,7 @@ app.config(['$routeProvider',function($routeProvider) {
 			templateUrl: '/js/admin/partials/PageTmpl.html'
 		})
 		.when('/items/:id?', {
-			controller: '/js/admin/controllers/ItemsController',
+			controller: 'ItemsController',
 			templateUrl: '/js/admin/partials/itemsTmpl.html'
 		})
 		.when('/about_us/:id?', {

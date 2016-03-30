@@ -1,4 +1,4 @@
-app.controller('itemsController', function ($scope, $routeParams, items) {
+app.controller('ItemsController', function ($scope, $routeParams, items) {
 
 	$scope.items_list = [];			// Variable for all items
 	$scope.current_items = null;		// Variable for the items shown in the form

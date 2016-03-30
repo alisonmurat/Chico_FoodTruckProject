@@ -100,6 +100,9 @@ img {
         <script src="{{ URL::asset('js/admin/app.js') }}"></script>
         <script src="{{ URL::asset('js/admin/services/PageService.js') }}"></script>
         <script src="{{ URL::asset('js/admin/controllers/PageController.js') }}"></script>
+        
+        <script src="{{ URL::asset('js/admin/services/ItemsService.js') }}"></script>
+        <script src="{{ URL::asset('js/admin/controllers/ItemsController.js') }}"></script>
 		
 <ul id="menu">
 <left>

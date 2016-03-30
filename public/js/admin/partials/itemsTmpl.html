@@ -4,15 +4,15 @@
     <div class="wrapper">
         <div>
             <label>Headline</label>
-            <input type="text" ng-model="current_items.headline">
+            <input type="text" ng-model="current_items.Name">
         </div>
         <div>
             <label>items Label</label>
-            <input type="text" ng-model="current_items.items_label">
+            <input type="text" ng-model="current_items.Price">
         </div>
         <div>
             <label>Body</label>
-            <textarea ng-model="current_items.body"></textarea>
+            <textarea ng-model="current_items.Description"></textarea>
         </div>
         <div>
             <button ng-click="clearitems()">New</button>
@@ -22,9 +22,9 @@
 </div>
 <div class="list_wrapper">
     <div class="title">items</div>
-    <div class="list" ng-repeat="items in items_list">
+    <div class="list" ng-repeat="item in items_list">
         <div class="item">
-            <a class="link" ng-click="getitems(items.id)">{{ items.items_label }}</a>
+            <a class="link" ng-click="getitems(item.id)">{{ item.Name }}</a>
         </div>
     </div>
 </div>
