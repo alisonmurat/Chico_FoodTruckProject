@@ -1,5 +1,13 @@
-Image,GalleryDescription,ContentType
-Tacos,Classic,jpeg
-Nachos,Taco Delight,jpeg
-tacos and tomatos,Taco Tacos,jpeg
-Enchiladas,Classic II,jpeg
+ImageName,GalleryDescription,FileName
+Tacos,Classic,/photos/1.jpg
+Nachos,Taco Delight,/photos/2.jpg
+tacos and tomatos,Taco Tacos,/photos/3.jpg
+Enchiladas,Classic II,/photos/4.jpg
+2 Steak Tacos,Delicious,/photos/5.jpg
+Burrito sticks,Smoked,/photos/6.jpg
+Meat burrito,Beef/chicken,/photos/7.jpg
+Chip&guacamole,large,/photos/8.jpg
+corn with tacos,Grilled corn,/photos/9.jpg
+3 tacos with 2 tomatos,Vegeterian,/photos/10.jpg
+Avacado tacos,For avacado lovers,/photos/11.jpg
+2 Steak Tacos with avacado,for meat lovers,/photos/12.jpg
