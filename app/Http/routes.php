@@ -33,10 +33,6 @@ Route::get('/home', function () {
     return view('home_prototype');
 });
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
