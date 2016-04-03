@@ -25,6 +25,10 @@ Route::get('/items', 'ItemsController@items');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/items', 'ItemsAdminController');
 
+Route::get('/gallery', 'GalleryController@items');
+Route::get('/admin', 'AdminController@index');
+Route::resource('ajax/gallery', 'GalleryAdminController');
+
 Route::get('/home', function () {
     return view('home_prototype');
 });
