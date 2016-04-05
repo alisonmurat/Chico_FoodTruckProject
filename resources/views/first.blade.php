@@ -50,12 +50,12 @@ img {
 
 
 
-<ul id="home">
+<ul id="menu">
 <center>
-  <li><a href="/aboutus">About Us</a></li>
-  <li><a href="/first">Home Page</a></li>
-  <li><a href="/home">Menu</a></li>
-  <li><a href="/gallery">Gallery</a></li>
+  <li><a href="http://project.app/aboutus">About Us</a></li>
+  <li><a href="http://project.app/menu">Home Page</a></li>
+  <li><a href="http://project.app/home">Menu</a></li>
+  <li><a href="http://project.app/gallery">Gallery</a></li>
   <li><a href="/php/default.asp">Location & Hours</a></li>
 </center>
   <br>
