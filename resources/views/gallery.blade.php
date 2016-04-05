@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>$("#thumbnailImage").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+}); 
+$("#thumbnailImage1").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage2").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage3").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage4").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage5").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage6").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage7").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage8").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage9").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage10").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+$("#thumbnailImage11").click(function() {
+   $(this).attr('width', '400');
+    $(this).attr('height', '300');
+</script>
 <style>
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
@@ -45,21 +83,20 @@ img {
   <br>
 </ul>  
 <center>
-
-<img src="/photos/1.jpg" alt="Team" style="width:160px;height:160px;">
-<img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/3.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/4.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage" src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
+<img id="thumbnailImage1" src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage2" src="/photos/3.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage3" src="/photos/4.jpg" alt="Truck" style="width:160px;height:160px;">
 <br>
-<img src="/photos/5.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/6.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/7.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/8.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage4" src="/photos/5.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage5" src="/photos/6.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage6" src="/photos/7.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage7" src="/photos/8.jpg" alt="Truck" style="width:160px;height:160px;">
 <br>
-<img src="/photos/9.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/10.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/11.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage8" src="/photos/9.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage9" src="/photos/10.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage10" src="/photos/11.jpg" alt="Truck" style="width:160px;height:160px;">
+<img id="thumbnailImage11" src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </center>
 </body>
 </html>
