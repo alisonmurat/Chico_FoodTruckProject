@@ -15,7 +15,7 @@ div {
 <li><a href="/first">Home Page</a></li>
 <li><a href="/home">Menu</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/php/default.asp">Location & Hours</a></li>
+<li><a href="/location">Location & Hours</a></li>
 </center>
   <br>
   <br>

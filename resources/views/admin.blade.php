@@ -115,7 +115,7 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="/homepage">Home Page</a></li>
+  <li><a href="/first">Home Page</a></li>
   <br>
   <br>
   <br>
@@ -130,7 +130,7 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="/php/default.asp">Location & Hours</a></li>
+  <li><a href="/location">Location & Hours</a></li>
 </left>
   <br>
   <br>
