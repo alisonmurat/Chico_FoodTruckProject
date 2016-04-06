@@ -37,6 +37,7 @@ ul#menu li a:hover {
 }
 img { 
     width:100%; 
+}
 </style>
 </head>
 <body>
@@ -61,7 +62,13 @@ img {
   <br>
   <br>
   <br>
-  <br>
+
+  @foreach ($items as $i)
+    <p>This is item {{ $i->Name }} - {{ $i->Description }} - {{ $i->Price}}</p>
+  @endforeach
+
+
+<br>
   <br>
 </ul>  
 </body>
