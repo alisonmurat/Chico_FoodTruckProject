@@ -16,7 +16,7 @@ class serviceseeder extends DatabaseSeeder
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
-			DB::table('services')->insert($row);
+			DB::table('service')->insert($row);
 		 }
     }
 }
