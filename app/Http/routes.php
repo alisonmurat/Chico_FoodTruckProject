@@ -13,10 +13,6 @@
 // Blade::setContentTags('<%', '%>');				// for variables and all things Blade
 // Blade::setEscapedContentTags('<%%', '%%>');		// for escaped data
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/aboutus', 'PageController@about');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/page', 'PageAdminController');
@@ -29,8 +25,8 @@ Route::get('/gallery', 'GalleryController@gallery');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/gallery', 'GalleryAdminController');
 
-Route::get('/home', function () {
-    return view('home_prototype');
+Route::get('/', function () {
+    return view('first');
 });
 
 /*
