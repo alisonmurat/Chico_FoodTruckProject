@@ -4,6 +4,9 @@
 <head>
 
 <style>
+body {
+	background-image: url("https://assets3.thrillist.com/v1/image/1239823/size/tl-horizontal_main/amsterdam-s-6-best-food-trucks-and-the-food-truck-events-to-find-them-at")
+}
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
     padding: 2;
@@ -46,14 +49,21 @@ img {
   <br>
   <br>
 </ul>  
-<center>
-<img src="/tacos.jpg" alt="Taco" style="width:800px;height:200px;">
 
-</center>
 <br>
 <p>
 <center>
-Chico Encalada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<font font size="4" color="yellow">Chico Encalada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
 </center>
 </p>
 

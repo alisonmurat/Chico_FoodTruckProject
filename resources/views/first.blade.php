@@ -3,6 +3,9 @@
 <head>
 <link rel="chico icon" type="image/x-icon" href="/chicos_logo">
 <style>
+body {
+	background-image: url("http://wallpapercave.com/wp/SgdmUjq.jpg")
+}
 ul#menu li {
     display: inline;
 }
