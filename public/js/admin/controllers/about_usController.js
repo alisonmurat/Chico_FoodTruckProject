@@ -19,7 +19,7 @@ app.controller('about_usController', function ($scope, $routeParams, Page) {
 	}
 
 	// Gets a specific page from the database
-	$scope.getabout_us = function (aboutus) {
+	$scope.getabout_us = function (about_us_id) {
 		Page.get(aboutus).success(function (data) {
 			$scope.current_aboutus = data;
 		});
@@ -29,7 +29,7 @@ app.controller('about_usController', function ($scope, $routeParams, Page) {
 	$scope.saveabout_us = function () {
 		
 		if ($scope.current_about_us.id) {
-			.update($scope.current_about_us.id, $scope.current_about_us).success(function (data) {
+			about_us.update($scope.current_about_us.id, $scope.current_about_us).success(function (data) {
 				$scope.current_about_us = data;
 			});
 		} else {

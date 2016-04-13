@@ -6,7 +6,7 @@ app.controller('PageController', function ($scope, $routeParams, Page) {
 	// At startup, check to see if a specific page was requested
 	function init() {
 		if ($routeParams.id) {
-			$scope.getPage($routeParams.id);
+			$scope.getpage($routeParams.id);
 		};
 		$scope.getAllPages();
 	}

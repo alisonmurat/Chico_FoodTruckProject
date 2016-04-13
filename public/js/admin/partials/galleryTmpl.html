@@ -1,0 +1,30 @@
+
+<div class="content">
+    <div class="title">Admin</div>
+    <div class="wrapper">
+        <div>
+            <label>Headline</label>
+            <input type="text" ng-model="current_gallery.Name">
+        </div>
+        <div>
+            <label>gallery Label</label>
+            <input type="text" ng-model="current_gallery.Lable">
+        </div>
+        <div>
+            <label>Body</label>
+            <textarea ng-model="current_gallery.body"></textarea>
+        </div>
+        <div>
+            <button ng-click="cleargallery()">New</button>
+            <button ng-click="savegallery()">Save</button>
+        </div>
+    </div>
+</div>
+<div class="list_wrapper">
+    <div class="title">gallery</div>
+    <div class="list" ng-repeat="image in image_list">
+        <div class="gallery">
+            <a class="link" ng-click="getimages(image.id)">{{image.name }}</a>
+        </div>
+    </div>
+</div>

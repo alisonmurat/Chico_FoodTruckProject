@@ -1,10 +1,10 @@
-app.factory('about_us' function ($http) {
+app.factory('about_us', function ($http) {
 
 	return {
 
 		// Get all pages from server / DB
 		list: function () {
-			return $http.get('/ajax/page');
+			return $http.get('/ajax/about_us');
 		},
 
 		// Get a single page from the server / DB

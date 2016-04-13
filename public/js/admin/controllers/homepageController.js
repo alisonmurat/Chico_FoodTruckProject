@@ -19,34 +19,34 @@ app.controller('ItemsController', function ($scope, $routeParams, items) {
 	}
 
 	// Gets a specific items from the database
-	$scope.getitems = function (items_id) {
-		items.get(items_id).success(function (data) {
-			$scope.current_items = data;
+	$scope.gethomepage = function (homepage) {
+		items.get(homepage).success(function (data) {
+			$scope.current_homepage = data;
 		});
 	}
 
 	// Saves what is in the form
-	$scope.saveitems = function () {
+	$scope.savehomepage = function () {
 		
-		if ($scope.current_items.id) {
-			items.update($scope.current_items.id, $scope.current_items).success(function (data) {
-				$scope.current_items = data;
+		if ($scope.current_homepage) {
+			homepage.update($scope.current_homepage, $scope.homepage).success(function (data) {
+				$scope.current_homepage = data;
 			});
 		} else {
-			items.save($scope.current_items).success(function (data) {
-				$scope.current_items = data[0];				
+			homepage.save($scope.current_homepage).success(function (data) {
+				$scope.current_homepage = data[0];				
 			});
 		};
-		$scope.getAllitems();
+		$scope.getAllhomepage();
 	}
 
 	// Resets the form
-	$scope.clearitems = function () {
-		$scope.current_items = null;
+	$scope.clearhomepage= function () {
+		$scope.current_homepage= null;
 	}
 
 	// Call the startup script
 	init();
 
 
-});
+});// JavaScript Document

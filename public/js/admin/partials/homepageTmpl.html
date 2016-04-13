@@ -1,0 +1,30 @@
+
+<div class="content">
+    <div class="title">Admin</div>
+    <div class="wrapper">
+        <div>
+            <label>Headline</label>
+            <input type="text" ng-model="current_homepage.Headline">
+        </div>
+        <div>
+            <label>homepage Label</label>
+            <input type="text" ng-model="current_homepage.items label">
+        </div>
+        <div>
+            <label>Body</label>
+            <textarea ng-model="current_homepage. body"></textarea>
+        </div>
+        <div>
+            <button ng-click="clearhomepage()">New</button>
+            <button ng-click="savehomepage)">Save</button>
+        </div>
+    </div>
+</div>
+<div class="list_wrapper">
+    <div class="title">homepage</div>
+    <div class="list" ng-repeat="homepage">
+        <div class="homepage">
+            <a class="link" ng-click="gethomepage">{{}}</a>
+        </div>
+    </div>
+</div>

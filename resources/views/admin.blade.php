@@ -98,11 +98,23 @@ img {
         <script src="{{ URL::asset('js/angular.js') }}"></script>
         <script src="{{ URL::asset('js/angular-route.js') }}"></script>
         <script src="{{ URL::asset('js/admin/app.js') }}"></script>
+		
         <script src="{{ URL::asset('js/admin/services/PageService.js') }}"></script>
         <script src="{{ URL::asset('js/admin/controllers/PageController.js') }}"></script>
         
         <script src="{{ URL::asset('js/admin/services/ItemsService.js') }}"></script>
         <script src="{{ URL::asset('js/admin/controllers/ItemsController.js') }}"></script>
+		
+		<script src="{{ URL::asset('js/admin/services/about_usService.js') }}"></script>
+        <script src="{{ URL::asset('js/admin/controllers/about_usController.js') }}"></script>
+		
+		<script src="{{ URL::asset('js/admin/services/galleryService.js') }}"></script>
+        <script src="{{ URL::asset('js/admin/controllers/galleryController.js') }}"></script>
+		
+		<script src="{{ URL::asset('js/admin/services/homepageService.js') }}"></script>
+        <script src="{{ URL::asset('js/admin/controllers/homepageController.js') }}"></script>
+		
+		
 		
 <ul id="menu">
 <left>
@@ -138,9 +150,9 @@ img {
   <br>
   <br>
   <center>
-  <button type="button" onclick="alert('Changes have been saved')">Save</button>
+  <button type="button" onClick="alert('Changes have been saved')">Save</button>
   <button type="button"">Edit</button>
-  <button type="button" onclick="alert('Thank you for taking the survey!')">Submit</button>
+  <button type="button" onClick="alert('Thank you for taking the survey!')">Submit</button>
   </center>
   
   </ul>  
