@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -12,8 +12,8 @@ class CreateGalleryTable extends Migration
      */
     public function up()
     {
-        Schema::create('gallery', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('Gallery', function (Blueprint $table) {
+            $table->increments('gallery_id');
             $table->timestamps();
             $table->string('ImageName');
             $table->string('GalleryDescription');

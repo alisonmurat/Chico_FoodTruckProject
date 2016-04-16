@@ -16,7 +16,7 @@ class galleryseeder extends DatabaseSeeder
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
-			DB::table('gallery')->insert($row);
+			DB::table('Gallery')->insert($row);
 		 }
     }
 }

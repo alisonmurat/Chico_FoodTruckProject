@@ -1,9 +1,9 @@
-<?php
+  <?php
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFeedbackTable extends Migration
+class CreateImagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,12 @@ class CreateFeedbackTable extends Migration
      */
     public function up()
     {
-        Schema::create('Feedback', function (Blueprint $table) {
+        Schema::create('Images', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('UserName');
-            $table->string('Comment');
-            $table->string('Email');
-            
+            $table->string('FileName');
+            $table->string('GalleryName');
+            $table->foreign('gallery_id')->references('id')->on('Gallery');
         });
     }
 
@@ -29,6 +28,6 @@ class CreateFeedbackTable extends Migration
      */
     public function down()
     {
-        Schema::drop('items');
+        Schema::drop('gallery');
     }
 }

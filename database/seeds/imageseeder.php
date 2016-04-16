@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class Items_Seeder extends DatabaseSeeder
+class imageseeder extends DatabaseSeeder
 {
     /**
      * Run the database seeds.
@@ -12,11 +12,11 @@ class Items_Seeder extends DatabaseSeeder
     public function run()
     {
 		// Filename and location of data in csv file
-		$seedData = $this->seedFromCSV(app_path().'/../database/csv/items.csv');
+		$seedData = $this->seedFromCSV(app_path().'/../database/csv/images.csv');
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
-			DB::table('Items')->insert($row);
+			DB::table('Images')->insert($row);
 		 }
     }
 }
