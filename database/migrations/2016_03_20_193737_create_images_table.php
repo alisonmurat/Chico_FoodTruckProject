@@ -27,6 +27,6 @@ class CreateImagesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('gallery');
+        Schema::drop('images');
     }
 }
