@@ -2,6 +2,9 @@
 <html>
 <head>
 <style>
+body {
+	background-image: url("https://0.s3.envato.com/files/148429928/Mexican%20Food%20Menu%20Out.jpg")
+}
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
     padding: 2;

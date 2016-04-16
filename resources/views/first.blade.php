@@ -4,7 +4,7 @@
 <link rel="chico icon" type="image/x-icon" href="/chicos_logo">
 <style>
 body {
-	background-image: url("http://wallpapercave.com/wp/SgdmUjq.jpg")
+	background-image: url("http://previews.123rf.com/images/Marti157900/Marti1579000709/marti157900070900002/1628686-Mexican-Food-Still-Life-on-Yellow-Background-Stock-Photo.jpg")
 }
 ul#menu li {
     display: inline;

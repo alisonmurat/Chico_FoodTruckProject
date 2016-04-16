@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <script>$("#thumbnailImage").click(function() {
    $(this).attr('width', '400');
     $(this).attr('height', '300');
@@ -40,6 +41,9 @@ $("#thumbnailImage11").click(function() {
     $(this).attr('height', '300');
 </script>
 <style>
+body {
+	background-image: url("https://t2.ftcdn.net/jpg/00/58/69/71/240_F_58697130_cvLIsvhguJMGj5smPXwm7txIj45A6dYZ.jpg")
+}
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
     padding: 2;

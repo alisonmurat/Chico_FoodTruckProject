@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http//www.project.app/home/xhtml">
 <head>
-<style>
+<meta http-equiv="Content-type"= content="text/html;charset=uff-8"/>
+<title>jQuery Slider</title>
+<style type='text/css'>
+slider {
+  width 800px,
+  height 350px,
+  overflow hidden,
+  margin:30px auto;
+sider img{
+  width 800px
+  height 350px
+  display none
+}
+
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
     padding: 2;
@@ -24,13 +37,21 @@ ul#menu li a:hover {
 }
 img { 
     width:100%; 
+}
 </style>
 </head>
 <body>
 
+<div class='sider'>
+<img src="/photos/5.jpg" alt="Truck" style="width:160px;height:160px;"/>
+<img src="/photos/6.jpg" alt="Truck" style="width:160px;height:160px;"/>
+<img src="/photos/7.jpg" alt="Truck" style="width:160px;height:160px;"/>
+<img src="/photos/8.jpg" alt="Truck" style="width:160px;height:160px;"/>
+</div>
 
 
-<ul id="menu">
+
+<ul id="home">
 <center>
   <li><a href="/aboutus">About Us</a></li>
   <li><a href="/">Home Page</a></li>
@@ -41,25 +62,14 @@ img {
   <br>
   <br>
   <br>
+
+  @foreach ($items as $i)
+    <p>This is item {{ $i->Name }} - {{ $i->Description }} - {{ $i->Price}}</p>
+  @endforeach
+
+
+<br>
   <br>
-  <br>	
 </ul>  
-<center>
-
-<img src="/photos/1.jpg" alt="Team" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
-<br>
-<br>
-<img src="/photos/2.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$6.99 Taco Delight</center>
-<br>
-<br>
-<img src="/photos/3.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$9.99 Taco Tacos</center>
-<br>
-<br>
-<img src="/photos/13.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$19.99 Classic II</center>
-<br>
-<br>
-<br>
-
-</center>
 </body>
 </html>
