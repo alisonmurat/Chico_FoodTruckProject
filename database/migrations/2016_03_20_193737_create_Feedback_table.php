@@ -29,6 +29,6 @@ class CreateFeedbackTable extends Migration
      */
     public function down()
     {
-        Schema::drop('items');
+        Schema::drop('Feedback');
     }
 }
