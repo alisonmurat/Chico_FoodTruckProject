@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(Items_Seeder::class);
         $this->call(galleryseeder::class);
         $this->call(serviceseeder::class);
+        $this->call(Feedbackseeder::class);
     }
 
 	protected function seedFromCSV($filename)
