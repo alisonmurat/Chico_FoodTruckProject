@@ -17,7 +17,6 @@ class CreateImagesTable extends Migration
             $table->timestamps();
             $table->string('FileName');
             $table->string('GalleryName');
-            $table->foreign('gallery_id')->references('id')->on('Gallery');
         });
     }
 
