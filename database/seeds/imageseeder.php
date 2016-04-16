@@ -16,7 +16,7 @@ class imageseeder extends DatabaseSeeder
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
-			DB::table('Images')->insert($row);
+			DB::table('images')->insert($row);
 		 }
     }
 }
