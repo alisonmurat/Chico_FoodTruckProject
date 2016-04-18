@@ -17,6 +17,10 @@ class CreateImageTable extends Migration
             $table->timestamps();
             $table->string('FileName');
             $table->string('GalleryName');
+            $table->integer('Gallery_id')->unsigned();
+            $table->foreign('Gallery_id') // country_state_id_foreign
+                ->references('id')->on('Gallery') 
+                ->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

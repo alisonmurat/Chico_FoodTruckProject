@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class galleryseeder extends DatabaseSeeder
+class Galleryseeder extends DatabaseSeeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +12,7 @@ class galleryseeder extends DatabaseSeeder
     public function run()
     {
 		// Filename and location of data in csv file
-		$seedData = $this->seedFromCSV(app_path().'/../database/csv/gallery.csv');
+		$seedData = $this->seedFromCSV(app_path().'/../database/csv/Gallery.csv');
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
