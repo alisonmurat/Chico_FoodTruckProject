@@ -12,11 +12,11 @@ class Imageseeder extends DatabaseSeeder
     public function run()
     {
 		// Filename and location of data in csv file
-		$seedData = $this->seedFromCSV(app_path().'/../database/csv/Images.csv');
+		$seedData = $this->seedFromCSV(app_path().'/../database/csv/Image.csv');
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
-			DB::table('Images')->insert($row);
+			DB::table('Image')->insert($row);
 		 }
     }
 }
