@@ -18,7 +18,7 @@ class ItemsController extends Controller
     public function items()
     {
     	
-         $items = DB::table('items')->get();
+         $items = DB::table('Items')->get();
          return view('menu', ['items' => $items]);
 
     }
