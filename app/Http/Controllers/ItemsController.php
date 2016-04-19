@@ -19,7 +19,7 @@ class ItemsController extends Controller
     {
     	
          $items = DB::table('Items')->get();
-         return view('home', ['items' => $items]);
+         return view('menu', ['items' => $items]);
 
     }
 }
