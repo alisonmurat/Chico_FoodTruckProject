@@ -22,7 +22,11 @@ app.config(['$routeProvider',function($routeProvider) {
 			controller: 'homepageController',
 			templateUrl: '/js/admin/partials/homepageTmpl.html'
 		})
-		.otherwise({ redirectTo: '/items' });
+		.when('/submissions/:id?', {
+			controller: 'SubmissionController',
+			templateUrl: '/js/admin/partials/SubmissionTmpl.html'
+		})
+		.otherwise({ redirectTo: '/pages' });
 
 }]);
 
