@@ -29,6 +29,11 @@ Route::get('/location', 'LocationController@location');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/location', 'LocationAdminController');
 
+Route::get('/feedback', 'FeedbackController@feedback');
+Route::get('/admin', 'AdminController@index');
+Route::post('/feedback', 'FeedbackController@save_feedback_form');
+Route::resource('ajax/feedback', 'FeedbackAdminController');
+
 Route::get('/', function () {
     return view('first');
 });
