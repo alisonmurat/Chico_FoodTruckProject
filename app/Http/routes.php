@@ -24,6 +24,19 @@ Route::resource('ajax/items', 'ItemsAdminController');
 Route::get('/gallery', 'GalleryController@gallery');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/gallery', 'GalleryAdminController');
+<<<<<<< HEAD
+=======
+
+Route::get('/location', 'LocationController@location');
+Route::get('/admin', 'AdminController@index');
+Route::resource('ajax/location', 'LocationAdminController');
+
+Route::get('/feedback', 'FeedbackController@feedback');
+Route::get('/admin', 'AdminController@index');
+Route::post('/feedback', 'FeedbackController@save_feedback_form');
+Route::resource('ajax/feedback', 'FeedbackAdminController');
+
+>>>>>>> origin/master
 Route::get('/', function () {
     return view('first');
 });
