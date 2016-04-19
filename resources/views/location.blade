@@ -1,31 +1,204 @@
-<style>
-div {
-    background-color: rgb(185, 0, 0);
-    width: 400px;
-    padding: 150px;
-    border: 10px solid black;
-    margin: 10px;
-}
-</style>
-</head>
+<html>
+<head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="google" content="notranslate">
+        <meta name="robots" content="index,follow,all">
+        <meta name="copyright" content="Copyright 2012. Sushi Prince All Rights Reserved.">
+        <meta name="author" content="Phal Lee">
+        <meta name="language" content="English">
+        <meta name="revisit-after" content="7">
+
+        <meta name="description" content="A Gem of Fairfax The place for people who know sushi &amp; Sashimi  Your eyes will be pleased, Your taste buds will be delighted. Your Highness, your table awaits. The Authentic Japanese Dining Experience at Sushi Prince., 패어팩스 시티에서 맛볼 수 있는 정통 사시미와 스시.">
+        <meta name="keywords" content="Japanese Restaurant, Sushi, authentic japanese, Market Place, ramen, tempura, fairfax, 일식, 스시, 레스토랑, 식당">
+    
+        <style type="text/css">
+            body, html {margin: 0px; padding: 0px; background-color: #620e0e;  background-image: url(/imgs/bgMain.jpg); background-position: center top; background-repeat: repeat-y; font-family: tahoma, sans-serif; color: #FFF;  height: 100%;}
+            #BodyCtn {width: 1020px; overflow: hidden; margin: 0 auto;}
+            #TopCtn {position: relative; width: 1020px; height: 442px; }
+            #BgImg {margin: 0px; z-index: 1; position: absolute; top: 0px; left: 0px;}
+                .topImg {z-index: 1; position: absolute; top: 70px; left: 0px; text-align: center; width: 1020px; height: 330px; overflow: hidden;}
+                .bkImg {z-index: 2; position: absolute; top: 0px; left: 0px; width: 1020px; height: 442px;}
+            #LogoCtn {z-index: 2; position: absolute; top: 180px; left: 10px;}
+            
+            #MainMenu {width: 876px; height: 45px; position: absolute; bottom: 0px; left: 70px; z-index: 2;}
+            .menuList {margin: 0px; padding: 0px;}
+            .menuList li {margin: 0px; padding: 0px; background-image: url(/imgs/menu.png); background-repeat: no-repeat; height: 45px; float: left; list-style-type: none; text-indent: -2000px;}
+                .menuList a {text-decoration: none; height: 45px; display: block;}
+                .menuList #M0 {background-position: 0px 0px; width: 67px;}
+                .menuList #M1 {background-position: -67px 0px; width: 121px;}
+                .menuList #M2 {background-position: -188px 0px; width: 122px;}
+                .menuList #M3 {background-position: -310px 0px; width: 123px;}
+                .menuList #M4 {background-position: -433px 0px; width: 122px;}
+                .menuList #M5 {background-position: -555px 0px; width: 122px;}
+                .menuList #M6 {background-position: -677px 0px; width: 122px;}
+                .menuList #M7 {background-position: -799px 0px; width: 77px;}
+
+                .menuList #M1:hover {background-position: -67px -45px; width: 121px;}
+                .menuList #M2:hover {background-position: -188px -45px; width: 122px;}
+                .menuList #M3:hover {background-position: -310px -45px; width: 123px;}
+                .menuList #M4:hover {background-position: -433px -45px; width: 122px;}
+                .menuList #M5:hover {background-position: -555px -45px; width: 122px;}
+                .menuList #M6:hover {background-position: -677px -45px; width: 122px;}
+
+                
+            #MainCtn {overflow: hidden;}
+            #MainBodyContainer {width: 911px; overflow: hidden; margin-top: 0px; margin-left: 58px; background: url(/imgs/bg_body_Main.png); padding-bottom: 25px;}
+            #MainBodyContainer_Bottom {width: 911px; height: 30px; margin-top: 0px; margin-left: 58px; background: url(/imgs/bg_body_Bottom.png)}
+            #LeftMain {float: left; width: 566px; margin-left: 15px; margin-top: 10px; min-height: 250px; background: url(/imgs/bgLeftBody.png) left top no-repeat;}
+                #LeftMain .contents {padding: 35px 0px 0px 60px; font-size: 12px; line-height: 140%; overflow: hidden; position: relative;}
+                .contents img {border: none;}
+                .contentsContainer {display: block; overflow: hidden;}
+                .halfcontentsContainer {float: left; overflow: hidden; line-height: 160%;}
+                .whiteDot {vertical-align: middle;}
+                .more {cursor: pointer;}
+                .left {float: left; margin-right: 20px;}
+                .right {float: right; margin-left: 20px;}
+            #RightMain {float: left; width: 300px; margin-top: 10px; min-height: 250px; background: url(/imgs/bgRightBody.png) right top no-repeat;}
+                #RightMain  .contents {padding: 35px 0px 0px 37px; font-size: 12px; line-height: 140%; overflow: hidden; position: relative;}
+                #OpenHour {background: url(/imgs/open.png); width: 242px; height: 66px;}
+                #OpenHourLarge {background: url(/imgs/openhour.png); width: 251px; height: 109px;}
+                
+            #BottomCtn{font-size: 12px; padding: 0px 75px 0px 70px}
+            .bgTitle {width: 453px; height: 49px; background: url(/imgs/bgTitle.png); text-align: center; font-size: 18px; line-height: 49px;}
+            .contentsContainerMenu {display: none; overflow: hidden; line-height: 22px; margin-right: 50px; color: #EEE; font-size: 14px;}
+            .price {float: right;}
+            .smDesc {font-size: 12px; color: #AAA; padding-left: 6px; margin-bottom: 2px; padding-right: 50px; line-height: 16px;}
+            
+            .mnuList {padding: 5px;}
+            .mnuList:hover {background: #000; color: #FFF;}
+            .mnuTitle {font-size: 14px; padding: 0px 15px 15px 0px; line-height: 160%}
+            .mnuTitle a {color: #FFF; text-decoration: none;}
+
+            .FieldText {font-size: 16px; width: 120px; text-align: right; padding-right: 10px; height: 36px; line-height: 40px;}
+            .FieldText sup, .FieldInput sup {color: #F00}
+            .FieldInput {font-size: 16px; text-align: left; line-height: 36px;}
+            .FieldInput input {height: 24px; font-size: 16px;}
+            .FieldInput textarea {height: 100px; width: 330px; font-size: 16px; margin-top: 7px;}
+            tfoot button {width: 150px; height: 25px; font-size: 14px; margin-top: 10px;}
+            .FieldInput input.R1 {width: 100px;}
+            .FieldInput input.R2 {width: 333px;}
+            .FieldInput input.R3 {width: 400px;}
+        </style>
+        <link rel="stylesheet" href="/js/nivo-slider3.1/nivo-slider/themes/default/default.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/js/nivo-slider3.1/nivo-slider/themes/light/light.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/js/nivo-slider3.1/nivo-slider/themes/dark/dark.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/js/nivo-slider3.1/nivo-slider/themes/bar/bar.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/js/nivo-slider3.1/nivo-slider/nivo-slider.css" type="text/css" media="screen">
+        
+        <script language="javascript" src="/js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="/js/nivo-slider3.1/nivo-slider/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $().ready(function () {
+                $(".more").click(function () {
+                    var o = $(this).parent().find('a');
+                    if(typeof(o.attr('href')) != 'undefined') document.location = o.attr('href'); else {
+                        o = $(this).parent().parent().find('a');
+                        document.location = o.attr('href');
+                    }
+                });
+                $('#slider').nivoSlider({
+                    effect: 'boxRandom', // Specify sets like: 'fold,fade,sliceDown'
+                    animSpeed: 1000, // Slide transition speed
+                    pauseTime: 4000
+                });
+            });
+        </script>
+        <title>Contact Us - Sushi Prince</title>
+    <style type="text/css"></style><style data-c2c="c2c_print_container_style" media="print" type="text/css">span.skype_c2c_print_container {} span.skype_c2c_container {display:none !important;} .skype_c2c_menu_container {display:none !important;}</style><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/telemetry.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/menu_handler.js"></script></head>
 <body>
-<center>
-<ul id="home">
-<li><a href="/aboutus">About Us</a></li>
-<li><a href="/first">Home Page</a></li>
-<li><a href="/home">Menu</a></li>
-<li><a href="/gallery">Gallery</a></li>
-<li><a href="/php/default.asp">Location & Hours</a></li>
-</center>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-</ul> 
-<div>
-<topleft>
-<h1>Location</h1>
-<p>3035 Clarendon Blvd<br>Arlington, VA 22201</p>
-</topleft>
-</div>
+        <div id="BodyCtn">
+            <div id="TopCtn">
+                <a href="/" style="position: absolute; top: 45px; left: 80px; z-index: 3; cursor: pointer; outline: none;"><img src="/imgs/homeLink.png" border="0"></a>
+                <a href="/contactus.php" style="position: absolute; top: 45px; left: 130px; z-index: 3; cursor: pointer; outline: none;"><img src="/imgs/contactLink.png" border="0"></a>
+                <div id="BgImg">
+                    <div class="bkImg">
+                        <img src="/imgs/topBGImg.png">
+                    </div>
+                    <div class="topImg">
+                        <div id="slider" class="nivoSlider">
+                            <img src="/imgs/mainImg_1.jpg" style="width: 1020px; visibility: hidden;">
+                            <img src="/imgs/mainImg_2.jpg" style="width: 1020px; visibility: hidden;">
+                            <img src="/imgs/mainImg_3.jpg" style="width: 1020px; visibility: hidden;">
+                            <img src="/imgs/mainImg_4.jpg" style="width: 1020px; visibility: hidden;">
+                        <img class="nivo-main-image" src="/imgs/mainImg_4.jpg" style="display: inline; height: 430px; width: 1020px; overflow: hidden;"><div class="nivo-caption"></div><div class="nivo-directionNav"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div><div class="nivo-box" name="0" rel="0" style="opacity: 1; left: 0px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-0px;"></div><div class="nivo-box" name="1" rel="0" style="opacity: 1; left: 128px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-128px;"></div><div class="nivo-box" name="2" rel="0" style="opacity: 1; left: 256px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-256px;"></div><div class="nivo-box" name="3" rel="0" style="opacity: 1; left: 384px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-384px;"></div><div class="nivo-box" name="4" rel="0" style="opacity: 1; left: 512px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-512px;"></div><div class="nivo-box" name="5" rel="0" style="opacity: 1; left: 640px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-640px;"></div><div class="nivo-box" name="6" rel="0" style="opacity: 1; left: 768px; top: 0px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-768px;"></div><div class="nivo-box" name="7" rel="0" style="opacity: 1; left: 896px; top: 0px; width: 124px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-0px; left:-896px;"></div><div class="nivo-box" name="0" rel="1" style="opacity: 1; left: 0px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-0px;"></div><div class="nivo-box" name="1" rel="1" style="opacity: 1; left: 128px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-128px;"></div><div class="nivo-box" name="2" rel="1" style="opacity: 1; left: 256px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-256px;"></div><div class="nivo-box" name="3" rel="1" style="opacity: 1; left: 384px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-384px;"></div><div class="nivo-box" name="4" rel="1" style="opacity: 1; left: 512px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-512px;"></div><div class="nivo-box" name="5" rel="1" style="opacity: 1; left: 640px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-640px;"></div><div class="nivo-box" name="6" rel="1" style="opacity: 1; left: 768px; top: 108px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-768px;"></div><div class="nivo-box" name="7" rel="1" style="opacity: 1; left: 896px; top: 108px; width: 124px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-108px; left:-896px;"></div><div class="nivo-box" name="0" rel="2" style="opacity: 1; left: 0px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-0px;"></div><div class="nivo-box" name="1" rel="2" style="opacity: 1; left: 128px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-128px;"></div><div class="nivo-box" name="2" rel="2" style="opacity: 1; left: 256px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-256px;"></div><div class="nivo-box" name="3" rel="2" style="opacity: 1; left: 384px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-384px;"></div><div class="nivo-box" name="4" rel="2" style="opacity: 1; left: 512px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-512px;"></div><div class="nivo-box" name="5" rel="2" style="opacity: 1; left: 640px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-640px;"></div><div class="nivo-box" name="6" rel="2" style="opacity: 1; left: 768px; top: 216px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-768px;"></div><div class="nivo-box" name="7" rel="2" style="opacity: 1; left: 896px; top: 216px; width: 124px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-216px; left:-896px;"></div><div class="nivo-box" name="0" rel="3" style="opacity: 1; left: 0px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-0px;"></div><div class="nivo-box" name="1" rel="3" style="opacity: 1; left: 128px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-128px;"></div><div class="nivo-box" name="2" rel="3" style="opacity: 1; left: 256px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-256px;"></div><div class="nivo-box" name="3" rel="3" style="opacity: 1; left: 384px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-384px;"></div><div class="nivo-box" name="4" rel="3" style="opacity: 1; left: 512px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-512px;"></div><div class="nivo-box" name="5" rel="3" style="opacity: 1; left: 640px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-640px;"></div><div class="nivo-box" name="6" rel="3" style="opacity: 1; left: 768px; top: 324px; width: 128px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-768px;"></div><div class="nivo-box" name="7" rel="3" style="opacity: 1; left: 896px; top: 324px; width: 124px; height: 430px;"><img src="/imgs/mainImg_4.jpg" style="position:absolute; width:1020px; height:auto; display:block; top:-324px; left:-896px;"></div></div><div class="nivo-controlNav"><a class="nivo-control" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a><a class="nivo-control active" rel="3">4</a></div>
+                    </div>
+                </div>
+                <div id="MainMenu">
+                    <ul class="menuList">
+                        <li id="M0">Blank</li>
+                        <li id="M1"><a href="/">Home Page</a></li>
+                        <li id="M2"><a href="/menu.php">Menu</a></li>
+                        <li id="M3"><a href="/gallery.php">Gallery</a></li>
+                        <li id="M4"><a href="/coupon.php">Coupon</a></li>
+                        <li id="M5"><a href="/xe/comments">Commnets</a></li>
+                        <li id="M6"><a href="/contactus.php">Contact Us</a></li>
+                        <li id="M7">Blank</li>
+                    </ul>
+                </div>
+                <div id="LogoCtn"><a href="/"><img src="/imgs/logo.png" border="0"></a></div>
+            </div>            <div id="MainCtn">
+                <div id="MainBodyContainer">
+                    <div id="LeftMain">
+                        <div class="contents" style="font-size: 14px; line-height: 180%">
+                        <img src="/imgs/textTitle_9.png"><br><br>
+                            <div style="display: block; overflow: hidden">
+                                <div style="float: left; margin-right: 7px;">Email <br>Tel <br>Address </div>
+                                <div style="float: left;">|&nbsp;&nbsp;<a href="mailto:Chicos@gmail.com" style="color: #FFF; text-decoration: none">cheftak@sushi-prince.com</a><br>|&nbsp;&nbsp;<span class="skype_c2c_print_container notranslate">703.383.0588</span><span id="skype_c2c_container" class="skype_c2c_container notranslate" dir="ltr" tabindex="-1" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" data-numbertocall="+17033830588" data-numbertype="paid" data-isfreecall="false" data-isrtl="false" data-ismobile="false"><span class="skype_c2c_highlighting_inactive_common" dir="ltr" skypeaction="skype_dropdown"><span class="skype_c2c_textarea_span" id="non_free_num_ui"><img width="0" height="0" class="skype_c2c_logo_img" src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/call_skype_logo.png"><span class="skype_c2c_text_span">703.383.0588</span><span class="skype_c2c_free_text_span"></span></span></span></span><br>|&nbsp;&nbsp;10256 Main Street, Fairfax, VA 22030<br></div>
+                            </div>
+                            <br>
+                            <iframe width="450" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?iwloc=near&amp;f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=10256+Main+Street+Fairfax,+VA+22030&amp;ie=UTF8&amp;hq=&amp;hnear=10256+Main+St,+Fairfax,+Virginia+22030&amp;gl=us&amp;vector=1&amp;ll=38.845086,-77.300933&amp;spn=0.01098,0.022788&amp;t=v&amp;z=14&amp;output=embed"></iframe><br><small><a href="https://maps.google.com/maps?q=10256+Main+Street+Fairfax,+VA+22030&amp;ie=UTF8&amp;hq=&amp;hnear=10256+Main+St,+Fairfax,+Virginia+22030&amp;gl=us&amp;vector=1&amp;ll=38.845086,-77.300933&amp;spn=0.01098,0.022788&amp;t=v&amp;z=14&amp;source=embed" style="color:#FFF;text-align:left; text-decoration: none;" target="_blank">View Larger Map</a></small>    
+                        </div>
+                        
+                    </div>
+                    <div id="RightMain">
+                        <div class="contents">
+                            <div class="contentsContainer">
+                                                                <br>
+                                <div id="OpenHourLarge">
+                                    <div style="float: left; margin: 35px 5px 7px 30px;"><br>Mon-Thur<br>Fri, Sat<br>Sunday</div>
+                                    <div style="float: left; margin: 35px 7px 7px 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lunch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dinner<br>|&nbsp;&nbsp;11:30-2:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5:00-9:30<br>|&nbsp;&nbsp;11:30-2:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5:00-10:00<br>|<div style="float: right; padding-right: 7px;">4:30-9:00</div></div>
+                                </div>
+                                <br>
+                                Please select a menu.<br>
+                                <div class="mnuTitle">
+                                    <ul style="list-style-type: square">
+                                       <li><a href="menu.php?sub=warmappetizer">Warm Appetizer</a></li>
+                                       <li><a href="menu.php?sub=coldappetizer">Cold Appetizer</a></li>
+                                       <li><a href="menu.php?sub=soupsalad">Soup &amp; Salad</a></li>
+                                       <li><a href="menu.php?sub=entree">Entree</a></li>
+                                       <li><a href="menu.php?sub=lunchspecial">Lunch Special</a></li>
+                                       <li><a href="menu.php?sub=beverage">Beverage</a></li>
+                                    </ul>
+                                    <hr style="color: #FFF; width: 95%; float: left;" size="1">
+                                </div>
+                                <br>
+                                Click to download menu list.<br>
+                                <div class="mnuTitle">
+                                    <ul style="list-style-type: square">
+                                       <li><a href="/pdf/sushiprince_menu.pdf" target="_blank">Sushi Prince Menu <img src="/imgs/pdf_file.png"></a></li>
+                                       <li><a href="/pdf/sushiprince_alacarte.pdf" target="_blank">A La Carte <img src="/imgs/pdf_file.png"></a></li>
+                                    </ul>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://get.adobe.com/reader/" target="_blank"><img src="/imgs/get_adobe_reader.png" border="0" title="PDF Version" alt="PDF Version"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="MainBodyContainer_Bottom"></div>
+            </div>
+            <div id="BottomCtn">
+                <div style="display: block; overflow: hidden">
+                    <a href="mailto:cheftak@sushi-prince.com" style="color:#FFF; text-decoration: none;">cheftak@sushi-prince.com</a> | <a href="/contactus.php" style="color:#FFF; text-decoration: none;">Tel: 703.383.0588 | 10256 Main Street, Fairfax, VA 22030</a>
+                    <div class="right">Copyright ©2012 Sushi Prince. All Rights Reserved.</div>
+                </div>
+                <div style="display: block; overflow: hidden; font-size: 12px; color: #EEE; padding-top: 35px; text-align: center;opacity:0.3; filter:alpha(opacity=30);">
+                    <a href=""><img src="/imgs/postdc.com.png" title="Powered by POSTDC.COM" alt="Powered by POSTDC.COM" style="vertical-align: middle"></a> |
+                    Browser Compatibility : We recommed using the lates version of <a href="http://windows.microsoft.com/en-US/internet-explorer/downloads/ie/" target="_blank" style="color: #FFF; text-decoration: none;">Internet Explorer (9+)</a>, <a href="http://www.google.com/chrome" target="_blank" style="color: #FFF; text-decoration: none;">Google Chrome</a>, <a href="http://support.apple.com/downloads/#internet" target="_blank" style="color: #FFF; text-decoration: none;">Safari</a>, or <a href="http://www.mozilla.org" target="_blank" style="color: #FFF; text-decoration: none;">Firefox</a>.
+                </div>
+            </div>
+        </div>
+    
+<div class="skype_c2c_menu_container notranslate" id="skype_c2c_menu_container" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" data-fp="{8C494E65-7BB9-46BC-979F-560396FB05C7}" data-murl="https://pipe.skype.com/Client/2.0/" data-p2murl="https://c2c-p2m-secure.skype.com/p2m/v1/push" data-uiid="1" data-uilang="en" style="display: none;"><div class="skype_c2c_menu_click2call"><a class="skype_c2c_menu_click2call_action" id="skype_c2c_menu_click2call_action" target="_self">Call</a></div><div class="skype_c2c_menu_click2sms"><a class="skype_c2c_menu_click2sms_action" id="skype_c2c_menu_click2sms_action" target="_self">Send SMS</a></div><div class="skype_c2c_menu_push_to_mobile"><a class="skype_c2c_menu_push_to_mobile_action" id="skype_c2c_menu_push_to_mobile_action" target="_blank">Call from mobile</a></div><div class="skype_c2c_menu_add2skype"><a class="skype_c2c_menu_add2skype_text" id="skype_c2c_menu_add2skype_text" target="_self">Add to Skype</a></div><div class="skype_c2c_menu_toll_info"><span class="skype_c2c_menu_toll_callcredit">You'll need Skype Credit</span><span class="skype_c2c_menu_toll_free">Free via Skype</span></div></div></body>
+	</html>
