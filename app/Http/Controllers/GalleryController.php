@@ -18,7 +18,7 @@ class GalleryController extends Controller
     public function gallery()
     {
     	
-         $gallery = DB::table('gallery')->get();
+         $gallery = DB::table('Gallery')->get();
          return view('gallery', ['gallery' => $gallery]);
 
     }
