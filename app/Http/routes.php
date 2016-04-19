@@ -25,6 +25,10 @@ Route::get('/gallery', 'GalleryController@gallery');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/gallery', 'GalleryAdminController');
 
+Route::get('/location', 'LocationController@location');
+Route::get('/admin', 'AdminController@index');
+Route::resource('ajax/location', 'LocationAdminController');
+
 Route::get('/', function () {
     return view('first');
 });
