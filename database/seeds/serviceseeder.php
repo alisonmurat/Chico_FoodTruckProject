@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class serviceseeder extends DatabaseSeeder
+class Serviceseeder extends DatabaseSeeder
 {
     /**
      * Run the database seeds.
@@ -12,7 +12,7 @@ class serviceseeder extends DatabaseSeeder
     public function run()
     {
 		// Filename and location of data in csv file
-		$seedData = $this->seedFromCSV(app_path().'/../database/csv/services.csv');
+		$seedData = $this->seedFromCSV(app_path().'/../database/csv/Services.csv');
 
 		foreach ($seedData as $row) {
 			// Can manipulate the data here...
