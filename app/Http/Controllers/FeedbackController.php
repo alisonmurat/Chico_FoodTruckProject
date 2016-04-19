@@ -18,7 +18,7 @@ class FeedbackController extends Controller
     public function feedback()
     {
     	
-         $feedback = DB::table('feedback')->get();
+         $feedback = DB::table('Feedback')->get();
          return view('feedback', ['feedback' => $feedback]);
 
     }
