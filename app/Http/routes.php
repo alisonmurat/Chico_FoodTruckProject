@@ -17,7 +17,7 @@ Route::get('/aboutus', 'PageController@about');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/page', 'PageAdminController');
 
-Route::get('/menu', 'ItemsController@items');
+Route::get('/home', 'ItemsController@items');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/items', 'ItemsAdminController');
 
