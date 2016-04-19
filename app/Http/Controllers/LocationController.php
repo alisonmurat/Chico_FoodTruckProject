@@ -14,7 +14,7 @@ class LocationController extends Controller
     public function location()
     {
     	
-         $location = Location::where('location_label', 'location')->first();
+         $location = Location::where('location', 'hours')->first();
          return view('location', $location);
 
     }
