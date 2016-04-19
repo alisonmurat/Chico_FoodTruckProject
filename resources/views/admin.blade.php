@@ -122,27 +122,6 @@ img {
   <br>
   <br>
   <br>
-  <li><a href="#/about_us">About Us</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <li><a href="/first">Home Page</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <li><a href="/home">Menu</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <li><a href="/gallery">Gallery</a></li>
-  <br>
-  <br>
-  <br>
-  <br>
-  <li><a href="/location">Location & Hours</a></li>
 </left>
   <br>
   <br>
