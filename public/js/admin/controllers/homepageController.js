@@ -1,26 +1,26 @@
-app.controller('ItemsController', function ($scope, $routeParams, items) {
+app.controller('HomepageController', function ($scope, $routeParams, items) {
 
-	$scope.items_list = [];			// Variable for all items
-	$scope.current_items = null;		// Variable for the items shown in the form
+	$scope.homepage = [];			// Variable for all items
+	$scope.current_homepage = null;		// Variable for the items shown in the form
 
 	// At startup, check to see if a specific items was requested
 	function init() {
 		if ($routeParams.id) {
-			$scope.getitems($routeParams.id);
+			$scope.gethomepage($routeParams.id);
 		};
-		$scope.getAllitemss();
+		$scope.getAllhomepage();
 	}
 
 	// Go and get the list of all items
-	$scope.getAllitemss = function () {
-		items.list().success(function (data) {
-			$scope.items_list = data;
+	$scope.getAllhomepage = function () {
+		homepage.list().success(function (data) {
+			$scope.homepage = data;
 		});
 	}
 
 	// Gets a specific items from the database
 	$scope.gethomepage = function (homepage) {
-		items.get(homepage).success(function (data) {
+		homepage.get(homepage).success(function (data) {
 			$scope.current_homepage = data;
 		});
 	}

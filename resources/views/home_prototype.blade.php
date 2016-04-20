@@ -40,6 +40,7 @@ img {
   <li><a href="/home">Menu</a></li>
   <li><a href="/gallery">Gallery</a></li>
   <li><a href="/location">Location & Hours</a></li>
+  {{$headline}}
 </center>
   <br>
   <br>
@@ -48,6 +49,7 @@ img {
   <br>	
 </ul>  
 <center>
+{{$headline}}
 
 <img src="/photos/1.jpg" alt="Team" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
 <br>

@@ -20,6 +20,7 @@ app.controller('ItemsController', function ($scope, $routeParams, items) {
 
 	// Gets a specific items from the database
 	$scope.getitems = function (items_id) {
+		console.log ('get items')
 		items.get(items_id).success(function (data) {
 			$scope.current_items = data;
 		});
