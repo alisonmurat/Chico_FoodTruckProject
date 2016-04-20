@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Items;
+use App\Item;
 use Log;
 
 
@@ -19,7 +19,7 @@ class ItemsAdminController extends Controller
      */
     public function index()
     {
-        $items = Items::get();
+        $items = Item::get();
         return response()->json($items);
     }
 
@@ -42,7 +42,7 @@ class ItemsAdminController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-        $items = Items::create($data);
+        $items = Item::create($data);
         return response()->json($items);
     }
 
@@ -54,7 +54,7 @@ class ItemsAdminController extends Controller
      */
     public function show($id)
     {
-        $items = Items::find($id);
+        $items = Item::find($id);
         return response()->json($items);
     }
 
@@ -83,7 +83,7 @@ class ItemsAdminController extends Controller
         unset($data['created_at']);
         unset($data['updated_at']);
 
-        $items = Items::where('id', $id)->update($data);
+        $items = Item::where('id', $id)->update($data);
         return response()->json($items);
     }
 
