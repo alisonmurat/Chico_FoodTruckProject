@@ -23,10 +23,11 @@ ul#menu li a:hover {
 }
 img { 
     width:100%; 
+}
+</style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-</style>
 </head>
 <body style="padding:0px; margin:0px; background-color:#fff;font-family:Arial, sans-serif">
 <ul id="menu">
