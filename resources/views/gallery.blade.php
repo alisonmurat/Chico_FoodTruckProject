@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href = "/chicos_logo" rel="icon" type="jpg">
 
 <script>$("#thumbnailImage").click(function() {
    $(this).attr('width', '400');
@@ -76,9 +77,9 @@ img {
 <center>
   <li><a href="/aboutus">About Us</a></li>
   <li><a href="/">Home Page</a></li>
-  <li><a href="/home">Menu</a></li>
+  <li><a href="/menu">Menu</a></li>
   <li><a href="/gallery">Gallery</a></li>
-  <li><a href="/php/default.asp">Location & Hours</a></li>
+  <li><a href="location">Location & Hours</a></li>
 </center>
   <br>
   <br>

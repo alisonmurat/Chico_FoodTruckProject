@@ -37,7 +37,7 @@ img {
 <center>
   <li><a href="/aboutus">About Us</a></li>
   <li><a href="/">Home Page</a></li>
-  <li><a href="/home">Menu</a></li>
+  <li><a href="/menu">Menu</a></li>
   <li><a href="/gallery">Gallery</a></li>
   <li><a href="/location">Location & Hours</a></li>
   {{$headline}}
