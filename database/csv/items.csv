@@ -1,4 +1,5 @@
 Name,Price,Description,Quantity
-Tacos,8.00$,"Soft Potato Tacos with honey mustard, letuce, and tomatos.",3
-Hamburgers,7.50$,"Beef Burger with American cheese, pickles and onions.",1
-Enchiladas,8.00$,"Two chicken enchiladas topped with brown mole sauce, sliced onions and grated cheese. Served with rice and beans.",2
+Classic ,$4.99 ,"Soft Potato Tacos with honey mustard, letuce, and tomatos.",3
+Taco delight,$6.99 ,"Beef Burger with American cheese, pickles and onions.",1
+Taco Tacos ,$9.99 ,"Two chicken enchiladas topped with brown mole sauce, sliced onions and grated cheese. Served with rice and beans.",2
+Classic II,$19.99 ,"6  Soft Potato Tacos with honey mustard, letuce, and tomatos.",
