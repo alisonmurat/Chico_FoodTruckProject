@@ -114,7 +114,7 @@ img {
 		<script src="{{ URL::asset('js/admin/services/homepageService.js') }}"></script>
         <script src="{{ URL::asset('js/admin/controllers/homepageController.js') }}"></script>
 		
-		
+		<script src="{{ URL::asset('js/admin/services/ImageService.js') }}"></script>
 		
 <ul id="menu">
 <left>
@@ -131,7 +131,7 @@ img {
   <center>
   <button type="button" onClick="alert('Changes have been saved')">Save</button>
   <button type="button"">Edit</button>
-  <button type="button" onClick="alert('Thank you for taking the survey!')">Submit</button>
+  <button type="button" onClick="alert('Thank you for submiting the picture!')">Submit</button>
   </center>
   
   </ul>  

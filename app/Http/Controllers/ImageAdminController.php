@@ -6,11 +6,12 @@
 +
 +use App\Http\Requests;
 +use App\Http\Controllers\Controller;
-+use App\Gallery;
++use App\Image;
++use Log;
 +
-+class GalleryAdminController extends Controller
++class ImageAdminController extends Controller
 +{
-+    
++
 +    public function __construct()
 +    {
 +        $this->middleware('auth');
@@ -23,8 +24,7 @@
 +     */
 +    public function index()
 +    {
-+        $galleries = Gallery::orderBy('name')->get();
-+        return response()->json($galleries);
++        //
 +    }
 +
 +    /**
@@ -45,9 +45,28 @@
 +     */
 +    public function store(Request $request)
 +    {
-+        $data = $request->all();
-+        $gallery = Gallery::create($data);
-+        return response()->json($gallery);
++
++        $toSave = array();
++        
++        if ($request->hasFile('file') && $request->file('file')->isValid()) {
++
++            $toSave['gallery_id'] = $request->input('gallery_id');
++            $toSave['filename'] = $request->file('file')->getClientOriginalName();
++            $toSave['name'] = $request->file('file')->getClientOriginalName();
++
++            $image = Image::create($toSave);
++
++            $destinationPath = app_path() . '/../public/galleries';
++            $fileName = $image['id'] . '-' . $toSave['filename'];
++
++            $request->file('file')->move($destinationPath, $fileName);
++
++            $image = Image::where('id', $image['id'])->update(['filename' => $fileName]);
++
++        }
++
++        return $this->show($request->input('gallery_id'));
++
 +    }
 +
 +    /**
@@ -58,8 +77,15 @@
 +     */
 +    public function show($id)
 +    {
-+        $gallery = Gallery::find($id);
-+        return response()->json($gallery);
++        if ($id) {
++            $images = Image::where('gallery_id', $id)->get();
++            return response()->json($images);
++
++        } else {
++            return response()->json(array());
++
++        }
++
 +    }
 +
 +    /**
@@ -82,13 +108,7 @@
 +     */
 +    public function update(Request $request, $id)
 +    {
-+        $data = $request->all();
-+        unset($data['id']);
-+        unset($data['created_at']);
-+        unset($data['updated_at']);
-+
-+        $gallery = Gallery::where('id', $id)->update($data);
-+        return response()->json($gallery);
++        //
 +    }
 +
 +    /**
