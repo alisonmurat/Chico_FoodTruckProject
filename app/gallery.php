@@ -8,13 +8,13 @@ class gallery extends Model
 {
     //
 protected $guarded = ['id', 'created_at', 'updated_at'];
-+
-+
-+    public function images()
-+    {
-+        return $this->hasMany('App\Image');
-+		// return $this->hasMany('App\Models\MediaUse', 'resort_id');
-+
-+    }
-+   
+protected $table = "Gallery";
+
+    public function images()
+    {
+        return $this->hasMany('App\Image');
+		// return $this->hasMany('App\Models\MediaUse', 'resort_id');
+
+    }
+   
 }

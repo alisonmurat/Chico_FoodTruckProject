@@ -1,4 +1,4 @@
-app.controller('GalleryController', function ($scope, $routeParams, Gallery, Image) {
+app.controller('galleryController', function ($scope, $routeParams, Gallery, Image) {
 
 	$scope.gallery_list = [];			// Variable for all Galleries
 	$scope.current_gallery = null;		// Variable for the page shown in the form

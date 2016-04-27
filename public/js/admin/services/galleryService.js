@@ -1,4 +1,4 @@
-app.factory('gallery', function ($http) {
+app.factory('Gallery', function ($http) {
 
 	return {
 
