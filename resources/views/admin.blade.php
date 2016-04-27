@@ -129,9 +129,6 @@ img {
   <br>
   <br>
   <center>
-  <button type="button" onClick="alert('Changes have been saved')">Save</button>
-  <button type="button"">Edit</button>
-  <button type="button" onClick="alert('Thank you for submiting the picture!')">Submit</button>
   </center>
   
   </ul>  
