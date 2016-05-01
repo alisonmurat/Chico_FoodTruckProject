@@ -56,7 +56,7 @@ class ImageAdminController extends Controller
 
             $image = Image::create($toSave);
 
-            $destinationPath = app_path() . '/../public/galleries';
+            $destinationPath = app_path() . '/../public/gallery';
             $fileName = $image['id'] . '-' . $toSave['filename'];
 
             $request->file('file')->move($destinationPath, $fileName);
