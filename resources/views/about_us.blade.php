@@ -4,6 +4,17 @@
 <head>
 
 <style>
+div.img {
+    margin: 5px;
+    border: 2px solid #black;
+    float: left;
+    width: 180px;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
 
 
 body {
@@ -30,14 +41,16 @@ ul#menu li a:hover {
     background-color: lightgreen;
 }
 img { 
-    width:100%; 
+    width:15%; 
 </style>
 </head>
 <body>
-
-
-
+<div class="img">
+<img src="/chicos_logo.jpg" alt="food truck">
+</div>
 <ul id="menu">
+
+<div class="img2"
 <center>
   <li><a href="/aboutus">About Us</a></li>
   <li><a href="/">Home Page</a></li>
@@ -45,6 +58,7 @@ img {
   <li><a href="/gallery">Gallery</a></li>
   <li><a href="/location">Location & Hours</a></li>
 </center>  
+</div>
   <br>
   <br>
   <br>
@@ -63,7 +77,7 @@ img {
 <br>
 <br>
 <br>
-<font font size="5" color="black" style="font-family:verdana;">Chico Encalada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
+<font font size="5" color="black" style="font-family:verdana;">Chico Enchilada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
 </center>
 </p>
 

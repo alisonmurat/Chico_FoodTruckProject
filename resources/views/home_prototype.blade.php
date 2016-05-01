@@ -2,6 +2,17 @@
 <html>
 <head>
 <style>
+div.img {
+    margin: 5px;
+    border: 2px solid #black;
+    float: left;
+    width: 180px;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
 body {
 	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
@@ -23,14 +34,15 @@ ul#menu li a:hover {
 }
 img { 
     width:100%; 
+}
 </style>
 </head>
 <body>
-
-
-
-<ul id="menu">
+<div class="img">
+<img src="/chicos_logo.jpg" alt="food truck">
+</div>
 <center>
+<ul id="menu">
   <li><a href="/aboutus">About Us</a></li>
   <li><a href="/">Home Page</a></li>
   <li><a href="/menu">Menu</a></li>
@@ -41,10 +53,13 @@ img {
   <br>
   <br>
   <br>
-  <br>	
+  <br>
 </ul>  
+<br>
+<br>
+<br>
 <center>
-<img src="/photos/1.jpg" alt="Team" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
+<img src="/photos/1.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
 <br>
 <br>
 <img src="/photos/2.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$6.99 Taco Delight</center>
@@ -54,15 +69,6 @@ img {
 <br>
 <br>
 <img src="/photos/13.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$19.99 Classic II</center>
-<br>
-<br>
-<br>
-
 </center>
 </body>
-<footer>
-@foreach ($menus as $menu)
-    <p>This is user {{ $user->id }}</p>
-@endforeach
-</footer>
 </html>

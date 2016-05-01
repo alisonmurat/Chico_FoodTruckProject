@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href = "/chicos_logo" rel="icon" type="jpg">
 
 
 <style>
+div.img {
+    margin: 5px;
+    border: 2px solid #black;
+    float: left;
+    width: 180px;
+}
+
+div.img img {
+    width: 100%;
+    height: 100%;
+}
 body {
 	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
@@ -33,9 +43,9 @@ img {
 </style>
 </head>
 <body>
-
-
-
+<div class="img">
+<img src="/chicos_logo.jpg" alt="food truck">
+</div>
 <ul id="menu">
 <center>
   <li><a href="/aboutus">About Us</a></li>
@@ -67,8 +77,4 @@ img {
 <img id="thumbnailImage11" src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </center>
 </body>
-<footer> @foreach ($galleries as $gallery)
-    <p>This is user {{ $user->id }}</p>
-@endforeach
-</footer>
 </html>
