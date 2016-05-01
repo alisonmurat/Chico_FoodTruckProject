@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+div.cfg {
+    margin: 5px;
+    border: 2px solid #black;
+	float: fixed;
+    width: 1400px;
+}
 div.img {
     margin: 5px;
     border: 2px solid #black;
@@ -58,6 +64,7 @@ img {
 <br>
 <br>
 <br>
+<div class="cfg">
 <center>
 <img src="/photos/1.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
 <br>
@@ -70,5 +77,6 @@ img {
 <br>
 <img src="/photos/13.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$19.99 Classic II</center>
 </center>
+</div>
 </body>
 </html>
