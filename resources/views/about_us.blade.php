@@ -68,10 +68,4 @@ img {
 </p>
 
 </body>
-<footer>
-@foreach ($about_us as $about_us)
-    <p>This is user {{ $user->id }}</p>
-@endforeach
-
-</footer>
 </html>
