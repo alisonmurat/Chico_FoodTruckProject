@@ -3,47 +3,10 @@
 <head>
 <link href = "/chicos_logo" rel="icon" type="jpg">
 
-<script>$("#thumbnailImage").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-}); 
-$("#thumbnailImage1").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage2").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage3").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage4").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage5").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage6").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage7").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage8").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage9").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage10").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-$("#thumbnailImage11").click(function() {
-   $(this).attr('width', '400');
-    $(this).attr('height', '300');
-</script>
+
 <style>
 body {
-	background-image: url("https://t2.ftcdn.net/jpg/00/58/69/71/240_F_58697130_cvLIsvhguJMGj5smPXwm7txIj45A6dYZ.jpg")
+	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
@@ -104,4 +67,8 @@ img {
 <img id="thumbnailImage11" src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </center>
 </body>
+<footer> @foreach ($galleries as $gallery)
+    <p>This is user {{ $user->id }}</p>
+@endforeach
+</footer>
 </html>

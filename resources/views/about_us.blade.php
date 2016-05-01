@@ -7,7 +7,7 @@
 
 
 body {
-	background-image: url("https://static01.nyt.com/images/2014/05/04/magazine/04foodtruck1/mag-04WMT-t_CA0-master675.jpg")
+	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
 body {background-color: rgb(185, 0, 0);}
 ul#menu {
@@ -63,9 +63,15 @@ img {
 <br>
 <br>
 <br>
-<font font size="4" color="red" style="font-family:verdana;">Chico Encalada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
+<font font size="5" color="black" style="font-family:verdana;">Chico Encalada's goal is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
 </center>
 </p>
 
 </body>
+<footer>
+@foreach ($about_us as $about_us)
+    <p>This is user {{ $user->id }}</p>
+@endforeach
+
+</footer>
 </html>

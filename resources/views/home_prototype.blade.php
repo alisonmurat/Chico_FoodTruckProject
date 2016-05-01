@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-	background-image: url("https://0.s3.envato.com/files/148429928/Mexican%20Food%20Menu%20Out.jpg")
+	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
 
 ul#menu li {
@@ -60,4 +60,9 @@ img {
 
 </center>
 </body>
+<footer>
+@foreach ($menus as $menu)
+    <p>This is user {{ $user->id }}</p>
+@endforeach
+</footer>
 </html>

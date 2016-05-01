@@ -20,7 +20,7 @@
 
 <style>
 body {
-	background-image: url("http://www.ndm.ox.ac.uk/mexico/_asset/image/mexican-blanket-projects-icon.jpeg")
+	background-image: url("http://www.karenfayeth.com/hotairballoon.jpg")
 }
 ul#menu {
     padding: 2;
@@ -69,7 +69,7 @@ color="black">
 <br>
 <br>
 <font font size="3" 
-color="yellow">
+color="white">
 <div class="boxed">
   Location<br>3423 M St NW, Washington, DC 20007<br>
 </div>
@@ -78,7 +78,7 @@ color="yellow">
 <br>
 <br>
 <font font size="3" 
-color="yellow">
+color="white">
 <div class="boxed">
   Hours of Operations<br>Monday - Thursday (9am - 8pm). Friday & Saturday (12pm - 12am). Sunday (12pm - 6pm).<br>
 </div>
@@ -87,9 +87,14 @@ color="yellow">
 <br>
 <br>
 <font font size="3" 
-color="yellow">Come Checkout our authentic mexican food at our Food Truck located in Washington D.C metro area.</font>
+color="brown">Come Checkout our authentic mexican food at our Food Truck located in Washington D.C metro area.</font>
 </center>
 </p
 
 </body>
+<footer>
+@foreach ($locations  as $location)
+    <p>This is user {{ $user->id }}</p>
+@endforeach
+</footer>
 </html>
