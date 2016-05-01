@@ -15,9 +15,10 @@ class CreateImageTable extends Migration
         Schema::create('Image', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('FileName');
-            $table->string('GalleryName');
+            $table->string('name', 256);
+            $table->string('filename', 256);
             $table->integer('Gallery_id')->unsigned();
+            
             $table->foreign('Gallery_id') // country_state_id_foreign
                 ->references('id')->on('Gallery') 
                 ->onUpdate('cascade')->onDelete('cascade');
