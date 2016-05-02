@@ -26,7 +26,6 @@ Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/gallery', 'GalleryAdminController');
 Route::resource('ajax/image', 'ImageAdminController');
 
-
 Route::get('/location', 'LocationController@location');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/location', 'LocationAdminController');
