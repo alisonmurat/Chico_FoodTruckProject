@@ -19,7 +19,7 @@ class LocationAdminController extends Controller
      */
     public function index()
     {
-        $location = Location::orderBy('location_label')->get();
+        $location = Location::orderBy('City')->get();
         return response()->json($location);
     }
 
