@@ -21,7 +21,7 @@ Route::get('/menu', 'ItemsController@items');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/items', 'ItemsAdminController');
 
-Route::get('/gallery', 'GalleryController@gallery');
+Route::get('/gallery/{id?}', 'GalleryController@gallery');
 Route::get('/admin', 'AdminController@index');
 Route::resource('ajax/gallery', 'GalleryAdminController');
 Route::resource('ajax/image', 'ImageAdminController');
