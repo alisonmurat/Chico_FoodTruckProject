@@ -14,7 +14,7 @@ class ImageAdminController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -78,8 +78,8 @@ class ImageAdminController extends Controller
     public function show($id)
     {
         if ($id) {
-            $images = Image::where('gallery_id', $id)->get();
-            return response()->json($images);
+            $image = Image::where('gallery_id', $id)->get();
+            return response()->json($image);
 
         } else {
             return response()->json(array());
