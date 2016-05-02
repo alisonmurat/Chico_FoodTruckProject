@@ -16,7 +16,7 @@ class GalleryController extends Controller
      * @return Response
      */
 
-    public function gallery($id = 1)
+    public function gallery($id=1)
     {
         
          $gallery = DB::table('Gallery')->get();
