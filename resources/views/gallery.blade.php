@@ -67,6 +67,7 @@ img {
 </ul>  
 <center>
 @foreach( $gallery->images as $gallery)
+<a href="/photos/{{$g->id}}">{{ $g->name }}</a> &nbsp;&nbsp;&nbsp;
 <div class="cfg">
 <img id="thumbnailImage1" src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
 <img id="thumbnailImage2" src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
