@@ -4,6 +4,13 @@
 <head>
 
 <style>
+div.about {
+	margin: 4px;
+	border: 2px solid: white;
+	width: 1000px;
+	background-color: yellow;
+	font-size: 120%;
+}
 div.img {
     margin: 5px;
     border: 2px solid #black;
@@ -77,7 +84,9 @@ img {
 <br>
 <br>
 <br>
-<font font size="5" color="black" style="font-family:verdana;">The goal of Chico's Enchiladas is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of Mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
+<div class="about"
+<font font size="5" color="white" style="font-family:verdana;">The goal of Chico's Enchiladas is to provide high quality, freshly made food at a reasonable price.<br> We provide a variety of Mexican food for our diverse community.<br> Our mission is to spread the taste of South America throughout Washington D.C metro area.</font>
+</div>
 </center>
 </p>
 

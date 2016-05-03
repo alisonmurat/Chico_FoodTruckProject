@@ -91,7 +91,7 @@ color="white">
 <br>
 <br>
 <font font size="3" 
-color="brown">Come checkout our authentic Mexican food at our Food Truck located in Washington D.C metro area.</font>
+color="yellow">Come checkout our authentic Mexican food at our Food Truck located in Washington D.C metro area.</font>
 </center>
 </p
 

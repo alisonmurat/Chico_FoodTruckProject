@@ -7,6 +7,7 @@ div.cfg {
     border: 2px solid #black;
 	float: fixed;
     width: 1400px;
+	color: white;
 }
 div.img {
     margin: 5px;
@@ -66,7 +67,7 @@ img {
 <br>
 <div class="cfg">
 <center>
-<img src="/photos/1.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$4.99 Classic</center>
+<img src="/photos/1.jpg" alt="Truck" style="width:460px;height:260px; color: white"> <center>$4.99 Classic</center>
 <br>
 <br>
 <img src="/photos/2.jpg" alt="Truck" style="width:460px;height:260px;"> <center>$6.99 Taco Delight</center>
