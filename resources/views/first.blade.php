@@ -58,7 +58,7 @@ img {
   <br>
 </center>
 
-<center><h1 style="font-family:verdana; color: green">Home of Tacos & Enchiladas!</h1>
+<center><h1 style="font-family:verdana; color: white">Home of Tacos & Enchiladas!</h1>
 </center>
 
 </ul>

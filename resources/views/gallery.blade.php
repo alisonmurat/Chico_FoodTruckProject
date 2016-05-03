@@ -73,10 +73,10 @@ img {
 </div>
 @endforeach
 
-@foreach( $gallery as $g)
-	<div class="image">
+@foreach( $gallery as $image)
+<div class="image">
     <img src="/pictures/{{ $g->name }}">
-    </div>
+</div>
 @endforeach
 
 <div class="cfg">
