@@ -7,13 +7,13 @@
 div.cfg {
     margin: 5px;
     border: 2px solid #black;
-    width: 800px;
+    width: 1000px;
 }
 div.img {
     margin: 5px;
     border: 2px solid #black;
     float: left;
-    width: 180px;
+    width: 160px;
 }
 
 div.img img {
@@ -44,7 +44,7 @@ ul#menu li a:hover {
     background-color: lightgreen;
 }
 img { 
-    width:100%; 
+    width:50%; 
 }
 
 </style>
@@ -73,28 +73,11 @@ img {
   @foreach($gallery->images as $i)
 
   <div class="image">
-      <img src="/pictures/{{ $i->filename }}">
+  <img src="/pictures/{{ $i->filename }}">
   </div>
   @endforeach
 
 
-</div>
-
-<div class="cfg">
-<img src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
-<img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/3.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/4.jpg" alt="Truck" style="width:160px;height:160px;">
-<br>
-<img src="/photos/5.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/6.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/7.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/8.jpg" alt="Truck" style="width:160px;height:160px;">
-<br>
-<img src="/photos/9.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/10.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/11.jpg" alt="Truck" style="width:160px;height:160px;">
-<img src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </div>
 </center>
 </body>
