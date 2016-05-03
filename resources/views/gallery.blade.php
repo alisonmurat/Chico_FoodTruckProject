@@ -7,7 +7,7 @@
 div.cfg {
     margin: 5px;
     border: 2px solid #black;
-    width: 1000px;
+    width: 800px;
 }
 div.img {
     margin: 5px;
