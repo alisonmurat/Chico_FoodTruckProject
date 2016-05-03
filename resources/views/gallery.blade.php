@@ -66,9 +66,13 @@ img {
   <br>
 </ul>  
 <center>
-@foreach( $gallery as $g)
-<a href="/pictures/1/">{{ $g->name }}</a>
-<img src="/pictures/{{$g->name}}">
+<div class="body">
+@foreach( $gallery->images as $pictures)
+<div class="image">
+	<img src="/pictures/{{$image->filename}}">
+</div>
+@endforeach
+</div>
 <div class="cfg">
 <img src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
 <img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
@@ -85,7 +89,6 @@ img {
 <img src="/photos/11.jpg" alt="Truck" style="width:160px;height:160px;">
 <img src="/photos/12.jpg" alt="Truck" style="width:160px;height:160px;">
 </div>
-@endforeach
 </center>
 </body>
 </html>
