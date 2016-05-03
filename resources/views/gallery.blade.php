@@ -67,8 +67,8 @@ img {
 </ul>  
 <center>
 @foreach( $gallery as $g)
-<a href="/gallery{{$g->1}}">{{ $g->name }}</a>
-<img src="/gallery{{$g->filename}}">
+<a href="/pictures/1">{{ $g->name }}</a>
+<img src="/pictures/{{$g->filename}}">
 <div class="cfg">
 <img src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
 <img src="/photos/2.jpg" alt="Truck" style="width:160px;height:160px;">
