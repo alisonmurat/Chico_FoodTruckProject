@@ -66,11 +66,9 @@ img {
   <br>
 </ul>  
 <center>
-<div class="body">
-@foreach( $gallery->images as $pictures)
+@foreach( $gallery->images as $image)
 <div class="image">
 	<img src="/pictures/{{$image->filename}}">
-</div>
 @endforeach
 </div>
 <div class="cfg">
