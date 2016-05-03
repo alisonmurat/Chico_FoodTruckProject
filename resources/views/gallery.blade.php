@@ -45,6 +45,8 @@ ul#menu li a:hover {
 }
 img { 
     width:100%; 
+}
+
 </style>
 </head>
 <body>
@@ -68,16 +70,15 @@ img {
 <center>
 </div>
 <div class="cfg">
-@foreach( $gallery as $g)
-	<a href="/pictures/1">{{ $g->name }}</a>
-</div>
-@endforeach
+  @foreach($gallery->images as $i)
 
-@foreach( $gallery as $image)
-<div class="image">
-    <img src="/pictures/{{ $g->name }}">
+  <div class="image">
+      <img src="/pictures/{{ $i->filename }}">
+  </div>
+  @endforeach
+
+
 </div>
-@endforeach
 
 <div class="cfg">
 <img src="/photos/1.jpg" alt="food" style="width:160px;height:160px;"> 
